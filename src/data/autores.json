@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nombre": "Gabriel García Márquez",
+    "nacionalidad": "Colombiana",
+    "fechaNacimiento": "1927-03-06"
+  },
+  {
+    "id": 2,
+    "nombre": "George Orwell",
+    "nacionalidad": "Gran Bretaña / India",
+    "fechaNacimiento": "1903-06-25"
+  },
+  {
+    "id": 3,
+    "nombre": "Jorge Luis Borges",
+    "nacionalidad": "Argentina",
+    "fechaNacimiento": "1899-08-24"
+  },
+  {
+    "id": 4,
+    "nombre": "Antoine de Saint-Exupéry",
+    "nacionalidad": "Francia",
+    "fechaNacimiento": "1900-06-29"
+  }
+]
