@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: biblioteca-api-node
+    env: docker
+    repo: https://github.com/ExAlvarez/FINAL-DEV-OPS
+    region: oregon
+    plan: free
+    branch: main
+    dockerCommand: ""
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: "3000"
+      - key: JWT_SECRET
+        sync: false
+      - key: SENTRY_DSN
+        sync: false
+
