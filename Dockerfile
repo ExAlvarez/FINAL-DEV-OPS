@@ -20,7 +20,7 @@ COPY . .
 
 #  2) Etapa RUNTIME
 
-FROM node:18-alpine AS runner
+FROM node:18-alpine
 
 WORKDIR /app
 
@@ -28,7 +28,7 @@ WORKDIR /app
 COPY --from=builder /app/node_modules ./node_modules
 
 # Copia solo el código necesario
-COPY --from=builder /app . /
+COPY --from=builder /app ./
 
 # Expone el puerto de la aplicación
 EXPOSE 3000
