@@ -39,4 +39,7 @@ API REST básica para gestión de libros. Incluye endpoints CRUD, healthcheck, D
 ## Cruce de datos
 
 - GET /autores/:id/libros  → devuelve todos los libros escritos por ese autor
-    (curl https://biblioteca-api-node.onrender.com/autores/1)
+  ```
+  (curl https://biblioteca-api-node.onrender.com/autores/1) --> RENDER
+  (curl http://localhost:3000/libros/autores/1) --> LOCAL
+  ```
