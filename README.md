@@ -10,7 +10,7 @@ API REST básica para gestión de libros. Incluye endpoints CRUD, healthcheck, D
 - npm start      # Inicia el servidor en http://localhost:3000
 - docker-compose up --build  # Ejecuta la app en contenedor
 ```
-## Comandos de ejecución de Render
+## Comandos de ejecución en Render
 ```
 -git push origin main
 
