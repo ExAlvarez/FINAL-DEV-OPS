@@ -2,13 +2,19 @@
 
 API REST básica para gestión de libros. Incluye endpoints CRUD, healthcheck, Docker y CI/CD con GitHub Actions.
 
-## Comandos de ejecución
+## Comandos de ejecución (local)
 
 ```bash
 - npm install    # Instala dependencias
 - npm test       # Ejecuta los tests
 - npm start      # Inicia el servidor en http://localhost:3000
 - docker-compose up --build  # Ejecuta la app en contenedor
+```
+## Comandos de ejecución de Render
+```
+-git push origin main
+
+- Todo el contenido sera visible en https://biblioteca-api-node.onrender.com y sus respectivas busquedas
 ```
 
 ## Endpoints principales:
@@ -33,4 +39,4 @@ API REST básica para gestión de libros. Incluye endpoints CRUD, healthcheck, D
 ## Cruce de datos
 
 - GET /autores/:id/libros  → devuelve todos los libros escritos por ese autor
-    (curl http://localhost:3000/libros/autor/1)
+    (curl https://biblioteca-api-node.onrender.com/autores/1)
