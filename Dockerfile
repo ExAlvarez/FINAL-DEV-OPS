@@ -1,5 +1,3 @@
-
-
 #  1) Etapa de BUILD
 
 FROM node:18-alpine AS builder
@@ -15,7 +13,6 @@ RUN npm ci --only=production
 
 # Copia el resto del código de la aplicación
 COPY . .
-
 
 
 #  2) Etapa RUNTIME
@@ -35,3 +32,5 @@ EXPOSE 3000
 
 # Comando para iniciar la aplicación
 CMD ["npm", "start"]
+
+
